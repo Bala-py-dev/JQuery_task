@@ -1,0 +1,45 @@
+#panel,
+#flip {
+    padding: 5px;
+    height: 50px;
+    text-align: center;
+    background-color: #0a0a0a;
+    border: solid 1px #c3c3c3;
+    color: white;
+    border-radius: 10px;
+}
+
+#panel {
+    padding: 50px;
+}
+
+#p,
+#f {
+    padding: 5px;
+    height: 50px;
+    text-align: center;
+    background-color: #0a0a0a;
+    border: solid 1px #c3c3c3;
+    color: white;
+    border-radius: 10px;
+}
+
+#p {
+    padding: 50px;
+    display: none;
+}
+
+#pl,
+#fl {
+    padding: 5px;
+    height: 50px;
+    text-align: center;
+    background-color: #0a0a0a;
+    border: solid 1px #c3c3c3;
+    color: white;
+    border-radius: 10px;
+}
+
+#pl {
+    padding: 50px;
+}

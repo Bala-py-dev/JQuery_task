@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>JQuery Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./images/fevicon.PNG">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src=" js/jquery-3.5.1.min.js "></script>
+    <script src="js/style.js"></script>
+
+    <body>
+        <h6>1. Create an application to show and hide bootstrap modal on button click using jquery.</h6>
+        <hr>
+        <button type="button" class="btn btn-danger w-25 ms-2" id="myShow">Show</button>
+        <div class="modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger w-25" id="myHide">Hide</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h6>2. Create one div in HTML. Add two buttons in html and change background color of div on button click event using jquery.</h6>
+        <div class="container w-50 py-4" id="myCon" style="height: 100px;border: 1px solid black;text-align: center;">
+            <div>Hello World</div>
+        </div><br>
+        <button type="button" id="myBtn" class="btn btn-primary ms-2">Click Me!</button>
+        <button type="button" id="myBtn1" class="btn btn-primary ms-2">Click Me!</button>
+        <hr>
+        <h6>3. Create an application to add and remove div dynamically inside form using jquery.</h6>
+        <div class="container">
+            <p id="myPra">This is a paragraph.</p>
+        </div><br>
+        <button type="button" id="myAdd" class="btn btn-primary ms-2">Add Me!</button>
+        <button type="button" id="myRemove" class="btn btn-primary ms-2">Remove Me!</button>
+        <button type="button" id="myRemove1" class="btn btn-primary ms-2">Empty Me!</button>
+        <hr>
+        <h6>4. Create an application which will count number of HTML elements from the input screen.</h6>
+        <div class="container" id="myTag">
+            <h6>Bala</h6>
+        </div><br>
+        <p id="c"></p><br>
+        <button type="button" id="myCount" class="btn btn-primary ms-2">Check Count</button>
+        <button type="button" id="myAd" class="btn btn-primary ms-2">Add Tag</button>
+        <hr>
+        <h6>5. Create HTML page with some elements and apply jQuery effects like Fade, Slide, Animation. </h6>
+        <h6><b>---------------Fade---------------</b></h6>
+        <div class="container d-flex" style="height: 100px;border: 1px solid black;">
+            <div class="row py-2">
+                <div class="col-md-4">
+                    <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div>
+                </div>
+                <div class="col-md-4">
+                    <div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div>
+                </div>
+                <div class="col-md-4">
+                    <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+                </div>
+            </div>
+        </div><br>
+        <button type="button" id="myIn" class="btn btn-success ms-2">FadeIN</button>
+        <button type="button" id="myOut" class="btn btn-success ms-2">FadeOut</button>
+        <button type="button" id="myTog" class="btn btn-success ms-2">FadeToggle</button>
+        <button type="button" id="myTo" class="btn btn-success ms-2">FadeTo</button><br><br>
+        <h6><b>---------------Slide---------------</b></h6>
+        <div class="container">
+            <div id="flip">Click to slide up panel</div>
+            <div id="panel">Hello world!</div>
+        </div><br>
+        <div class="container">
+            <div id="f">Click to slide up panel</div>
+            <div id="p">Hello world!</div>
+        </div><br>
+        <div class="container">
+            <div id="fl" class="myFlip">Click to slide up panel</div>
+            <div id="pl" class="myPanel">Hello world!</div>
+        </div><br><br>
+        <h6><b>---------------Animation---------------</b></h6>
+        <button type="button" id="myAni" class="btn btn-primary ms-2">The Animate() Method</button>
+        <button type="button" id="myAni1" class="btn btn-primary ms-2">Manipulate Multiple Properties</button>
+        <button type="button" id="myAni2" class="btn btn-primary ms-2">Using Relative Values</button>
+        <button type="button" id="myAni3" class="btn btn-primary ms-2">Using Pre-defined Values</button>
+        <button type="button" id="myAni4" class="btn btn-primary ms-2">Uses Queue Functionality</button>
+        <button type="button" id="myAni5" class="btn btn-primary ms-2">Uses Queue Functionality_1</button>
+        <br><br><br>
+        <div class="container" style="height: 300px;padding: 3px;">
+            <div id="mySlide" style="background:#98bf21;height:140px;width:100px;position:relative;">Hello</div>
+        </div>
+        <script src="js/bootstrap.min.js "></script>
+        <script src="js/popper.min.js "></script>
+    </body>
+</head>
+
+</html>
